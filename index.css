@@ -58,6 +58,13 @@ a:active {
   float: left;
   margin-right: 1.7vw;
   margin-top: 0.7vw;
+  width: 25vw;
+}
+.biopic2 {
+  float: left;
+  margin-right: 1.7vw;
+  margin-top: 0.7vw;
+  height: 25vw;
 }
 .biotext {
   float: right;
@@ -75,6 +82,7 @@ a:active {
   margin: 4%;
   margin-bottom: 0%;
   color: rgb(200, 200, 200);
+  font-size: 2.1vw;
 }
 .section2 {
   float: left;
@@ -82,6 +90,7 @@ a:active {
   margin-top: 4%;
   margin-bottom: 0%;
   color: rgb(200, 200, 200);
+  font-size: 2.1vw;
 }
 .section3 {
   float: right;
@@ -89,11 +98,12 @@ a:active {
   margin: 4%;
   margin-bottom: 0%;
   color: rgb(200, 200, 200);
+  font-size: 2.1vw;
 }
 .iltext {
   margin-left: 4%;
   margin-right: 4%;
-  margin-top: -15px;
+  margin-top: -1.5vw;
   color: rgb(200, 200, 200);
 }
 .story {
