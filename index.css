@@ -1,129 +1,53 @@
-html {
-  margin-top: 1em;
-}
-h1, h3 {
-  color: rgb(0,0,0);
-  font-family: Palatino;
-}
-h1, h4 {
-  color: rgb(250, 250, 250);
-  text-align: center;
-  letter-spacing: 0.04vw;
+body {
+    background-color: rgb(230, 190, 150);
+    font-family: Arial;
 }
 h1 {
-  font-size: 50pt;
-  font-weight: normal;
-  letter-spacing: 0.13vw;
-  line-height: 0vw;
-}
-h4 {
-  font-size: 16pt;
-  font-family: Avenir;
-  font-weight: lighter;
-}
-h3 {
-  margin-bottom: -1vw;
-  font-size: 16pt;
+    font-size: 54pt;
+    color: white;
+    margin-bottom: -15pt;
+    text-align: justify;
+    text-align: center;
 }
 p {
-  color: rgb(75, 75, 75);
-  font-size: 14pt;
-  font-family: Avenir;
-  font-weight: lighter;
-  line-height: 1.4em;
-  letter-spacing: 0.01vw;
+    font-size: 18pt;
+    color: white;
+    text-align: justify;
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
 }
-a {
-  color: rgb(200, 200, 200);
-  text-decoration: none;
+a:link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
 }
 a:hover {
-  color: rgb(150, 150, 150);
+    color: rgb(190, 190, 190);
 }
 a:active {
-  color: rgb(75, 75, 75);
+    color:black;
 }
-.center {
-  text-align: center;
+.logo {
+    height: 108pt;
+    text-align: center;
+    margin-bottom: -15pt;
 }
-.menu {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 12pt;
-  font-weight: normal;
-  word-spacing: 3.5vw;
-  line-height: 3.7vw;
+.ildathore {
+    background-color: black;
 }
-.biopic {
-  float: left;
-  margin-right: 1.7vw;
-  margin-top: 0.7vw;
-  width: 25vw;
+.cover {
+    width: 264pt;
+    text-align: center;
 }
-.biopic2 {
-  float: left;
-  margin-right: 1.7vw;
-  margin-top: 0.7vw;
-  height: 25vw;
+.description {
+    font-size: 14pt;
+    max-width: 264pt;
 }
-.biotext {
-  float: right;
-  margin-top: -1vw;
-}
-.spacer {
-  line-height: 0vw;
-}
-.black {
-  background-color: rgb(0, 0, 0);
-}
-.section1 {
-  float: left;
-  width: 28%;
-  margin: 4%;
-  margin-bottom: 0%;
-  color: rgb(200, 200, 200);
-  font-size: 14pt;
-}
-.section2 {
-  float: left;
-  width: 28%;
-  margin-top: 4%;
-  margin-bottom: 0%;
-  color: rgb(200, 200, 200);
-  font-size: 14pt;
-}
-.section3 {
-  float: right;
-  width: 28%;
-  margin: 4%;
-  margin-bottom: 0%;
-  color: rgb(200, 200, 200);
-  font-size: 14pt;
-}
-.iltext {
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-top: -1.5vw;
-  color: rgb(200, 200, 200);
-}
-.story {
-  background-color: rgb(185, 175, 150);
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.storytext {
-  text-indent: 20px;
-}
-.copyright {
-  text-align: center;
-  color: rgb(150, 150, 150);
-  margin-top: -15px;
-  font-size: 12pt;
-}
-#subheader {
-  background-color: rgb(105, 105, 105);
-}
-#body {
-  margin-left: 2%;
-  margin-right: 2%;
+.map {
+    width: 528pt;
+    text-align: center;
 }
